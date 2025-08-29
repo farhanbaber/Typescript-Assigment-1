@@ -1,0 +1,16 @@
+git clone <your-repo-url>
+cd <your-project-folder>
+npm install
+npx tsc
+node dist/index.js
+project-folder/
+│── src/
+│   └── index.ts       # Main TypeScript file
+│── dist/
+│   └── index.js       # Compiled JavaScript (auto-generated)
+│── package.json
+│── tsconfig.json
+│── README.md
+let num: number | null = null;
+num = 12;
+console.log("The number is:", num);
